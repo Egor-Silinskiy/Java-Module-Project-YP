@@ -1,14 +1,14 @@
 public class Car {
-    String name;
-    int currentSpeed;
-    public Car(String name, int currentSpeed) {
+    private String name;
+    private int speed;
+    public Car(String name, int speed) {
         this.name = name;
-        this.currentSpeed = currentSpeed;
+        this.speed = speed;
     }
-    public int getCurrentSpeed() {
-        return currentSpeed;
-    }
-    public String getCurrentName() {
+    public String getName() {
         return name;
+    }
+    public int getSpeed() {
+        return speed;
     }
 }
